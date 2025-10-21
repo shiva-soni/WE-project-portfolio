@@ -1,0 +1,128 @@
+/* 🌈 Global Theme */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top left, #0f172a, #1e293b, #0a0f1f);
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  padding: 10px 22px;
+  border-radius: 8px;
+  margin: 10px;
+  display: inline-block;
+  transition: 0.4s;
+}
+a:hover {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  transform: scale(1.08);
+}
+
+h1, h2, h3 {
+  color: #60a5fa;
+}
+
+/* ---------------- ID Selectors (Home Page) ---------------- */
+#main-title {
+  font-size: 45px;
+  margin-top: 60px;
+  text-shadow: 2px 2px 15px #2563eb;
+}
+
+#intro {
+  font-size: 18px;
+  color: #cbd5e1;
+  width: 70%;
+  margin: 20px auto;
+}
+
+/* 🌀 IMAGE EFFECT */
+#profile-pic {
+  width: 200px;
+ border-radius: 20px;
+  border: 3px solid #3b82f6;
+  box-shadow: 0 0 25px rgba(59, 130, 246, 0.6);
+  transition: transform 0.6s ease, box-shadow 0.6s ease;
+  cursor: pointer;
+}
+#profile-pic:hover {
+  transform: scale(1.15) rotate(3deg);
+  box-shadow: 0 0 40px rgba(96, 165, 250, 0.8);
+}
+
+/* ---------------- Class Selectors (About Page) ---------------- */
+.section-title {
+  font-size: 32px;
+  margin-top: 40px;
+  color: #93c5fd;
+}
+
+.about-text {
+  width: 70%;
+  margin: auto;
+  font-size: 18px;
+  color: #e2e8f0;
+  background: rgba(59, 130, 246, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.4);
+}
+
+.skill {
+  background: #1d4ed8;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 8px;
+  box-shadow: 0 0 10px rgba(37, 99, 235, 0.5);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+.skill:hover {
+  transform: scale(1.15);
+  background: #3b82f6;
+}
+
+/* ---------------- Tag Selectors (Contact Page) ---------------- */
+h1 {
+  margin-top: 50px;
+}
+form {
+  width: 330px;
+  margin: 30px auto;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+}
+input, textarea {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: #1e293b;
+  color: white;
+}
+button {
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+button:hover {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  transform: scale(1.05);
+}
+footer {
+  margin-top: 40px;
+  color: #94a3b8;
+}
